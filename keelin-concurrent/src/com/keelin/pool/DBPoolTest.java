@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  */
 public class DBPoolTest {
     static DBPool pool = new DBPool(10);
-    static CountDownLatch end; //控制器：用来控制主线程  等待 所有worker结束之后才继续执行
+    static CountDownLatch end; //控制器：用来控制主线程/当前线程  等待 所有worker结束之后才继续执行
 
     public static void main(String[] args) throws InterruptedException {
         int threadCount = 50;//线程数量
