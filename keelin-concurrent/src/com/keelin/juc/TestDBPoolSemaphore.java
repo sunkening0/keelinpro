@@ -1,6 +1,7 @@
-package keelin.juc;
+package com.keelin.juc;
 
-import keelin.utils.SleepTools;
+
+import com.keelin.utils.SleepTools;
 
 import java.sql.Connection;
 import java.util.Random;

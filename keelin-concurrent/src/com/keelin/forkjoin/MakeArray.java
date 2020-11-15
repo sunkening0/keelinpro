@@ -1,4 +1,4 @@
-package keelin.forkjoin;
+package com.keelin.forkjoin;
 
 import java.util.Random;
 

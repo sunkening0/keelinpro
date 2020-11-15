@@ -1,4 +1,4 @@
-package keelin.forkjoin;
+package com.keelin.forkjoin;
 
 /**
  * 单线程测试一个数组的和
